@@ -1,0 +1,354 @@
+div.container {
+		width: 100%;
+		background-image: url("gray_jean.png");
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		padding: 100px;
+}
+
+.verticalLine {
+	     
+	    padding-right: 20px;
+	    border-right: thick solid #4aaaa5;
+}
+
+body {
+		font-size: 18px;
+		line-height: 24px;
+		height: 100%;
+}
+
+.span {
+		height: 100%;
+		display: inline-block;
+		position: relative;
+}
+
+h1, h2, h3 {
+		padding-bottom: 20px;
+		border-style: solid;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-color: #4aaaa5;
+		color: #4aaaa5;
+		font-weight: bold;
+}
+
+header {
+		color: #333;
+  		background-color: #eee;
+		font-family: 'Georgia', Times, 'Times New Roman', serif;
+		width: 100%;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		border-style: solid;
+		border-color: #cccccc;
+		position: absolute;
+}
+
+footer {
+		background-color: #666666;
+		clear: both;
+		text-align: center;
+		border-style: solid;
+		border-color: #4aaaa5;
+		top: 150px;
+		border-left: 0;
+		border-right: 0;
+		border-bottom: 0;
+		line-height: 36px;
+}
+
+#aboutme {	
+		width: 650px;
+		padding: 10px;
+		margin-left: 30px;
+		margin-top: 10px; 
+		border-style: solid;
+		float: left;
+		overflow: auto;
+		border-width: 1px;
+		background: url("pink_rice.png");
+}
+
+#connect {
+		width: 310px;
+		padding: 10px;
+		margin-top: 10px;
+		margin-left: 80px;
+		margin-right: 0px;
+		float: left;
+		border-style: solid;
+		border-width: 1px;
+		overflow: auto;
+		background: url("pink_rice.png");
+}
+
+.img {
+		width: 50px;
+		height: 50px;
+		margin: 10px;
+		border-width: 1px;
+		float: left;
+		overflow: auto;
+}
+
+a {
+		text-decoration: none;
+		color: #cccccc;
+	    font-size: 20px;
+	    display: inline-block;
+	    margin-right: 20px;
+
+}
+
+a:hover {
+		background-color:#4aaaa5;
+		text-decoration: underline;
+		color: #fff;
+	}
+
+
+.mp {
+		text-align: center;
+		color: #fff;
+		background: #4aaaa5;
+		font-size: 36px;
+		line-height: 48px;
+		display: inline-block;
+		float: left;
+		height: 100%;
+		margin-left: 100px;
+}
+
+
+.nav{
+		
+		float: right;
+		display: inline-block;
+		
+		text-align: center;
+		font-size: 28px;
+}
+
+#bio {
+		float: left;
+		display: inline;
+		padding-right: 25px;
+		height: 200px;
+		width: 200px;
+}
+
+#contactbox {
+		width: 40%;
+		padding: 10px;
+		margin-left: 30px;
+		margin-top: 10px; 
+		border-style: solid;
+		float: left;
+		overflow: auto;
+		border-width: 1px;
+		background: url("pink_rice.png");
+
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+h4 {
+	color: #4aaaa5;
+
+}
+
+.submitbutton {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#portfolio {
+		width: 60%;
+		padding: 10px;
+		margin-left: 30px;
+		margin-top: 10px; 
+		border-style: solid;
+		float: left;
+		overflow: auto;
+		border-width: 1px;
+		background: url("pink_rice.png");
+		height: 60%
+}
+
+.box {
+		width: 100%;
+		padding-left: 10px;
+		float: left;
+		overflow: auto;
+}
+#b1 { 
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-image: url("http://lorempixel.com/250/250/");
+	height: 200px;
+	width: 45%;
+}
+
+#b2 {
+	float:left;
+	margin-right: 20px;
+	background-image: url("http://lorempixel.com/250/250/");
+	margin-bottom: 20px;
+	height: 200px;
+	width: 45%;
+}
+
+#b3 {
+	float: left;
+	margin-right: 20px;
+	clear: both;
+	background-image: url("http://lorempixel.com/250/250/");
+	height: 200px;
+	width: 45%;
+}
+
+#b4 {
+	float: left;
+	background-image: url("http://lorempixel.com/250/250/");
+	
+	height: 200px;
+	width: 45%;
+}
+
+.portfolio {
+
+		text-align: center;
+		color: #fff;
+		background: #4aaaa5;
+		font-size: 20px;
+		line-height: 30px;
+		display: inline-block;
+		float: left;
+		width:  100%;
+		margin-top: 125px;
+}
+
+@media screen and (max-width: 640px) {
+		div.container {
+		width: 100%;
+		padding:  20px;
+
+}
+
+header {
+	width: 100%;
+	position: static;
+}
+
+.span {
+	margin: auto;
+}
+
+
+	#portfolio,
+	#aboutme,
+	#contactbox {
+		width: 100%;
+		background-color: #666666;
+		margin-top: 100px;
+
+}
+	#connect {
+		width: 100%;
+		margin-top: 40px;
+		background-color: #666666;
+}
+	
+
+}
+
+@media screen and (max-width: 768px) {
+		div.container {
+		width: 100%;
+		padding:  20px;
+		background-image: none;
+
+}
+		header {
+		width: 100%;
+		margin: auto;
+}
+
+		#portfolio,
+		#aboutme,
+		#contactbox {
+			width: 100%;
+			background-color: #666666;
+			margin: auto;
+			background-image: none;
+
+
+}
+		#connect {
+			width: 100%;
+			margin: auto;
+			margin-top: 40px;
+			background-color: #666666;
+	}
+		footer {
+			margin: auto;
+	}
+}
+
+
+
+@media screen and (max-width: 980px) {
+	div.container {
+		width: 100%;
+		padding:  20px;
+		background-image: none;
+		height: 100%;
+}
+
+	#portfolio,
+	#aboutme,
+	#contactbox {
+			width: 100%;
+			background-color: #666666;
+			margin: auto;
+			background-image: none;
+}
+
+	#connect {
+		width: 100%;
+		margin: auto;
+		background-color: #666666;
+		background-image: none;
+		margin-top: 40px;
+}
+	
+	footer {
+			margin: auto;
+	}
+
+
+}
+
+
+
+
+
+
